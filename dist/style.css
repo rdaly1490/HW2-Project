@@ -1,0 +1,18 @@
+.lightBlue {
+	height:50px;
+	background: #118BC0;
+	margin-bottom:0px;
+}
+
+.darkBlue {
+	height:550px;
+	background: #344051;
+	margin-top:0px;
+	padding:20px;
+}
+
+.child {
+	height:70px;
+	background: #FFFFFF;
+
+}
