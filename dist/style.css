@@ -28,6 +28,30 @@
 	width:110px;
 }
 
+.floatLeft {
+	background:#616E7F;
+	height:65px;
+	width:75px;
+	float:left;
+}
+
+.child .floatLeft {
+	margin:20px 20px 0px 0px;
+}
+
+
+.floatRight {
+	background: #616E7F;
+	width:475px;
+	height:65px;
+	float:right;
+}
+
+.child .floatRight {
+	margin:0px 5px 30px 0px;
+}
+
+
 .darkBlue {
 	height:1125px;
 	background: #344051;
@@ -43,7 +67,6 @@
 	width:580px;
 	background: #FFFFFF;
 	margin:30px auto 30px auto;
-
 }
 
 .child1 {
@@ -89,14 +112,14 @@
 
 .section2 {
 	background: #E8F0F5;
-	height:1500px;
+	height:1900px;
 	padding:300px 0px 350px 0px;
 	margin:0px;
 }
 
 .gray {
 	background: #D1D3D7;
-	height:1500px;
+	height:1900px;
 	margin:0px 0px 200px 0px;
 	padding:50px 20px 0px 20px;
 }
@@ -104,8 +127,30 @@
 .white {
 	background:#FFFFFF;
 	width:750px;
-	height:200px;
+	height:250px;
 	margin:0px auto 50px auto;
+	padding-top: 20px
+}
+
+.c3 {
+	background: #C7D2D8;
+	height:70px;
+	width:600px;
+	margin:0px auto 0px auto;
+}
+
+.c2 {
+	background: #C7D2D8;
+	height:35px;
+	width:600px;
+	margin:0px auto 20px auto;
+}
+
+.c1 {
+	background: #C7D2D8;
+	height:50px;
+	width:50px;
+	margin:0px auto 20px auto;
 }
 
 .bottomBlue {
