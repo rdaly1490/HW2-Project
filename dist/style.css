@@ -1,7 +1,31 @@
 .lightBlue {
-	height:50px;
+	height:80px;
 	background: #118BC0;
 	margin-bottom:0px;
+}
+
+.b1 {
+	background: #FFFFFF;
+	height:50px;
+	float:left;
+	margin:15px;
+	width:50px;
+}
+
+.b2 {
+	background: #FFFFFF;
+	height:50px;
+	float:left;
+	margin:15px 5px 15px 5px;
+	width:175px;
+}
+
+.b3 {
+	background: #0E71A2;
+	height:80px;
+	margin:0px;
+	float:right;
+	width:110px;
 }
 
 .darkBlue {
@@ -16,22 +40,28 @@
 
 .child {
 	height:70px;
+	width:580px;
 	background: #FFFFFF;
-	margin:30px;
+	margin:30px auto 30px auto;
 
 }
 
 .child1 {
 	height:40px;
 	background: #FFFFFF;
-	margin: 30px 280px 150px 280px;
+	width:90px;
+	margin: 30px auto 150px auto;
 }
 
 .child2 {
 	height:65px;
 	background: #1E8CBE;
+	width:450px;
 	border: 15px solid #21222B;
-	margin: 40px 80px 350px 80px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 350px;
 }
 
 .topText1 {
@@ -73,14 +103,16 @@
 
 .white {
 	background:#FFFFFF;
+	width:750px;
 	height:200px;
-	margin:0px 0px 50px 0px;
+	margin:0px auto 50px auto;
 }
 
 .bottomBlue {
 	height:65px;
+	width:400px;
 	background: #1E8CBE;
-	margin: 0px 200px 0px 200px;
+	margin: 0px auto 0px auto;
 }
 
 .footer {
@@ -93,7 +125,8 @@
 .whiteBox {
 	background: #FFFFFF;
 	height:80px;
-	margin: 100px 250px 0px 250px
+	width:230px;
+	margin: 100px auto 0px auto
 }
 
 a {
