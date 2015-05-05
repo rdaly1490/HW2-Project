@@ -56,3 +56,64 @@
 	text-align: center;
 	margin:0px;
 }
+
+.section2 {
+	background: #E8F0F5;
+	height:1500px;
+	padding:300px 0px 350px 0px;
+	margin:0px;
+}
+
+.gray {
+	background: #D1D3D7;
+	height:1500px;
+	margin:0px 0px 200px 0px;
+	padding:50px 20px 0px 20px;
+}
+
+.white {
+	background:#FFFFFF;
+	height:200px;
+	margin:0px 0px 50px 0px;
+}
+
+.bottomBlue {
+	height:65px;
+	background: #1E8CBE;
+	margin: 0px 200px 0px 200px;
+}
+
+.footer {
+	height:300px;
+	background:black;
+	padding: 60px 30px 60px 30px;
+	text-align: center;
+}
+
+.whiteBox {
+	background: #FFFFFF;
+	height:80px;
+	margin: 100px 250px 0px 250px
+}
+
+a {
+	color:#FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0px 10px 20px 10px;
+	text-decoration: none;
+}
+
+span {
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
