@@ -62,6 +62,18 @@
 	margin:0px 5px 40px 0px;
 }
 
+.p1 {
+	color:#FFFFFF;
+	font-size: 25px;
+	font-weight: bold;
+	margin:0px 0px 10px 10px;
+}
+
+.p2 {
+	color:#D9E1E1;
+	font-size: 25px;
+	margin:0px 0px 0px 10px;
+}
 
 .darkBlue {
 	height:1125px;
@@ -125,15 +137,18 @@
 
 .section2 {
 	background: #E8F0F5;
-	height:1900px;
-	padding:300px 0px 350px 0px;
+	height:2150px;
+	padding:50px 0px 350px 0px;
 	margin:0px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
 }
 
 .gray {
 	background: #D1D3D7;
 	height:1900px;
-	margin:0px 0px 200px 0px;
+	margin:50px 0px 200px 0px;
 	padding:50px 20px 0px 20px;
 }
 
@@ -154,7 +169,7 @@
 
 .c2 {
 	background: #C7D2D8;
-	height:35px;
+	height:30px;
 	width:600px;
 	margin:0px auto 20px auto;
 }
@@ -167,10 +182,11 @@
 }
 
 .bottomBlue {
-	height:65px;
-	width:400px;
+	height:35px;
+	width:300px;
 	background: #1E8CBE;
 	margin: 0px auto 0px auto;
+	padding: 17.5px 0px 17.5px 0px;
 }
 
 .footer {
@@ -204,6 +220,49 @@ a {
 	font-size: 35px;
 	font-family: sans-serif;
 }
+
+.test1 {
+	display:block;
+	margin:10px 0px 20px 0px;
+}
+.test3 {
+	margin: 0px 0px 20px 0px;
+}
+
+ .c2 p {
+	color:#344051;
+	font-size: 30px;
+	text-align:center;
+	font-family: Arial;
+	margin:0px 0px 0px 0px;
+}
+
+.c3 p {
+	color:#4C4A49;
+	font-size: 23px;
+	text-align: center;
+	font-family: sans-serif;
+	margin:0px 0px 0px 0px;
+}
+
+.wordpress {
+	margin:80px 0px 0px 0px;
+	font-size: 40px;
+	color:#3A384D;
+	font-family: Arial;
+	text-align: center;
+}
+
+.bottomBlue > a {
+	text-align: center;
+	color:#FFFFFF;
+	font-size: 30px;
+	margin:0px;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+
 
 
 
