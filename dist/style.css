@@ -5,11 +5,15 @@
 }
 
 .b1 {
-	background: #FFFFFF;
+	background: #FFFFFF url(logo.png);
 	height:50px;
 	float:left;
 	margin:15px;
 	width:50px;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
 }
 
 .b2 {
@@ -48,10 +52,12 @@
 
 .floatLeft {
 	background:#616E7F;
-	height:50px;
+	opacity: 0%;
+	height:70px;
 	width:75px;
 	float:left;
-	margin:20px 20px 0px 0px;
+	margin:0px 20px 0px 0px;
+	:nth-child(1):;
 }
 
 .floatRight {
@@ -77,12 +83,17 @@
 
 .darkBlue {
 	height:1125px;
-	background: #344051;
+	background: #344051 url(crowd.jpg);
 	margin-top:0px;
 	padding-top: 150px;
 	padding-left: 75px;
 	padding-right: 75px;
 	padding-bottom: 75px;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position: 0% 30%;
 }
 
 .child {
@@ -103,11 +114,11 @@
 	height:50px;
 	background: #1E8CBE;
 	width:450px;
-	border: 15px solid #21222B;
+	box-shadow: 0px 0px 0px 20px rgba(0,0,0,.3);
 	margin-left:auto;
 	margin-right: auto;
-	margin-top: 40px;
-	margin-bottom: 350px;
+	margin-top: 90px;
+	margin-bottom: 300px;
 	text-align: center;
 	padding-top: 15px;
 }
@@ -117,7 +128,7 @@
 	font-size: 40px;
 	font-weight: bold;
 	text-align: center;
-	margin:0px 0px 40px 0px;
+	margin:0px 0px 60px 0px;
 }
 
 .topText1-1 {
@@ -176,9 +187,10 @@
 
 .c1 {
 	background: #C7D2D8;
-	height:50px;
-	width:50px;
+	height:75px;
+	width:75px;
 	margin:0px auto 20px auto;
+	border-radius: 50%; 
 }
 
 .bottomBlue {
@@ -261,6 +273,44 @@ a {
 	font-family: Arial;
 	font-weight: normal;
 }
+
+.gray :nth-child(1) .c1 {
+	background: #C7D2D8 url(lightbulb.png) center;
+	background-repeat: no-repeat;
+	opacity:100%;
+
+}
+.gray :nth-child(2) .c1{
+	background: #C7D2D8 url(cloud.png) center ;
+	background-repeat: no-repeat;
+	opacity:100%;
+}
+
+.gray :nth-child(3) .c1 {
+	background: #C7D2D8 url(code.png) center;
+	background-repeat: no-repeat;
+	opacity:100%;
+
+}
+.gray :nth-child(4) .c1{
+	background: #C7D2D8 url(comments.png) center ;
+	background-repeat: no-repeat;
+	opacity:100%;
+}
+.gray :nth-child(5) .c1 {
+	background: #C7D2D8 url(gift.png) center;
+	background-repeat: no-repeat;
+	opacity:100%;
+
+}
+.gray :nth-child(6) .c1{
+	background: #C7D2D8 url(globe.png) center ;
+	background-repeat: no-repeat;
+	opacity:100%;
+}
+
+
+
 
 
 
