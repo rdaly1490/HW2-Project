@@ -13,20 +13,38 @@
 }
 
 .b2 {
-	background: #FFFFFF;
+	background: #118BC0;
 	height:50px;
 	float:left;
-	margin:15px 5px 15px 5px;
-	width:175px;
+	margin:25px 5px 15px 5px;
+	width:195px;
 }
 
 .b3 {
 	background: #0E71A2;
-	height:80px;
-	margin:0px;
+	height:55px;
 	float:right;
 	width:110px;
+	padding-top: 25px;
+	text-align: center;
 }
+
+.logo {
+	color:#FFFFFF;
+	font-weight: bold;
+	font-size: 25px;
+	vertical-align: middle;
+	font-family: sans-serif;
+}
+
+.logo2 {
+	color:#9BD2E7;
+	font-weight: bold;
+	font-size: 25px;
+	vertical-align: middle;;
+	margin-left: -5px;
+}
+
 
 .floatLeft {
 	background:#616E7F;
@@ -70,7 +88,7 @@
 }
 
 .child2 {
-	height:65px;
+	height:50px;
 	background: #1E8CBE;
 	width:450px;
 	border: 15px solid #21222B;
@@ -78,6 +96,8 @@
 	margin-right: auto;
 	margin-top: 40px;
 	margin-bottom: 350px;
+	text-align: center;
+	padding-top: 15px;
 }
 
 .topText1 {
@@ -173,15 +193,17 @@ a {
 	font-size: 20px;
 	margin: 0px 10px 20px 10px;
 	text-decoration: none;
+	font-family: sans-serif;
 }
 
-span {
+.hyperlink {
 	margin-bottom: 30px;
 }
 
-
-
-
+.child2 a {
+	font-size: 35px;
+	font-family: sans-serif;
+}
 
 
 
